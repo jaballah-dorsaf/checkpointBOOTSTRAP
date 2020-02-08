@@ -1,0 +1,77 @@
+body {
+    background-image: linear-gradient(217deg, rgba(255, 0, 0, .8), rgba(255, 0, 0, 0) 70.71%),
+        linear-gradient(127deg, black, black 70.71%),
+        linear-gradient(336deg, rgba(0, 0, 255, .8), rgba(0, 0, 255, 0) 70.71%);
+}
+
+.cover {
+    width: 100%;
+    height: 450px;
+    padding: 50px;
+    background-image: url(../res/webdev3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 87px;
+    box-shadow: 0 3px 2px rgba(0, 0, 0, .5);
+    box-sizing: border-box;
+}
+
+.heading {
+    color: #eceef3;
+    font-size: 4em;
+    font-family: 'Bree Serif', serif;
+    margin: 30px 0 40px 500px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
+}
+
+.cover .heading {
+    font-size: 6em;
+    font-family: 'Bree Serif', serif;
+    position: relative;
+    top: 40%;
+    text-shadow: 5px 2px rgb(12, 11, 11);
+}
+
+h1 {
+    color: white;
+    text-align: left;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+}
+
+select {
+    width: 300px;
+    height: 30px;
+}
+
+label {
+    text-align: center;
+    color: seashell;
+}
+
+.button {
+    text-align: right;
+    border-bottom: blue;
+
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.form-container form {
+    border: 0.1px solid black;
+    padding: 10px;
+    margin: 20px;
+}
+
+.footer-container-text {
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
